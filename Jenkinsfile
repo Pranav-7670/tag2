@@ -2,7 +2,7 @@ node
 {
   stage('build')
   {
-   if(env.Tag_Name != NULL)
+   if(env.Tag_Name != "test2")
    {
      echo "we are building a tag"
    }
